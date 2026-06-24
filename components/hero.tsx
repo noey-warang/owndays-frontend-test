@@ -96,7 +96,7 @@ export default function Hero() {
                     <div className="md:hidden flex items-center">
                         <Dialog>
                             <DialogTrigger><IoIosMenu className="w-7.5 h-7.5 text-white" /></DialogTrigger>
-                            <DialogContent className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-none w-90 bg-[#000000] [&>button]:hidden">
+                            <DialogContent className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-none w-90 h-200 bg-[#000000] [&>button]:hidden">
                                 <div className="absolute right-4 top-4">
                                     <DialogClose className="text-[#FF6723] hover:opacity-80 transition-opacity">
                                         <IoIosClose className="w-15 h-15" />
