@@ -64,7 +64,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     </div>
                 </DialogTrigger>
 
-                <DialogContent className="max-w-none w-95 h-220 bg-white text-[#FF6723] p-0 overflow-visible [&>button]:hidden">
+                <DialogContent className="max-w-none w-95 bg-white text-[#FF6723] p-0 overflow-visible [&>button]:hidden">
                     <div className="absolute right-4 top-2 z-50">
                         <DialogClose className="hover:opacity-80 transition-opacity cursor-pointer">
                             <IoIosClose className="w-18 h-18" />
